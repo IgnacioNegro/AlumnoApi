@@ -1,0 +1,88 @@
+﻿# Visual Studio / .NET / ASP.NET Core .gitignore
+
+## Build results
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+out/
+
+## Visual Studio
+.vs/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Rider
+.idea/
+
+## ASP.NET Core specific
+appsettings.Development.json
+appsettings.Local.json
+appsettings.*.json
+
+## Entity Framework
+Migrations/
+
+## NuGet packages
+*.nupkg
+*.snupkg
+*.nuspec
+packages/
+*.dll
+*.pdb
+*.exe
+
+## Publish files
+publish/
+*.Publish.xml
+*.pubxml
+*.pubxml.user
+*.tmp
+*.cache
+*.zip
+
+## Test results
+[Tt]est[Rr]esult*/
+*.TestResult.xml
+*.trx
+coverage*.xml
+*.coverage
+*.coveragexml
+
+## Misc
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.bak
+*.swp
+*.tmp
+*.DS_Store
+
+## OS-specific
+# macOS
+*.DS_Store
+# Windows
+ehthumbs.db
+Thumbs.db
+
+## Dotnet user secrets
+secrets.json
+
+## Local environment files
+.env
+.env.*
+
+## JetBrains
+.idea/
+*.iml
+
+## Others
+_ReSharper*/
+*.resharper
+*.DotSettings.user
+
+.vs/
